@@ -502,10 +502,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const press = parseFloat(item.getAttribute('data-st-press')) || 0;
     const temp = parseFloat(item.getAttribute('data-st-temp')) || 0;
     const hum = parseFloat(item.getAttribute('data-st-hum')) || 0;
-    animateStorageValue('storage-years', years, 1200, 0);
-    animateStorageValue('storage-press', press, 1200, press % 1 !== 0 ? 1 : 0);
-    animateStorageValue('storage-temp', temp, 1200, 0);
-    animateStorageValue('storage-hum', hum, 1200, 0);
+    animateStorageValue('storage-years', years, 3000, 0);
+    animateStorageValue('storage-press', press, 3000, press % 1 !== 0 ? 1 : 0);
+    animateStorageValue('storage-temp', temp, 3000, 0);
+    animateStorageValue('storage-hum', hum, 3000, 0);
   }
   initInfoLists();
   const firstLangItem = document.querySelector('.lang-select-item');
