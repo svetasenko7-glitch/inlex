@@ -1,0 +1,9 @@
+<svg width="19" height="28" viewBox="0 0 19 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Главный зеленый каркас (он же рамка сверху, снизу и по бокам) -->
+    <rect width="19" height="28" fill="#08D16B"/>
+    
+    <!-- 3 черные полоски-углубления внутри -->
+    <rect x="2" y="2" width="3" height="24" fill="#070707"/>
+    <rect x="8" y="2" width="3" height="24" fill="#070707"/>
+    <rect x="14" y="2" width="3" height="24" fill="#070707"/>
+</svg>
