@@ -32,9 +32,9 @@ header {
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: start;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   border-bottom: 2px solid var(--primary);
-  margin: 50px 50px 0px 50px;
+  margin: 16px 50px 0px 50px;
   gap: 10px;
 }
 
